@@ -18,7 +18,7 @@ namespace GangeltSimulation
                 fractionHouseHolds.Add(result);                
             }
 
-            Console.WriteLine(responseProbabilityIndividual);
+            Console.WriteLine("Individual response probability: " +responseProbabilityIndividual);
             Console.WriteLine("Fraction Households average:" + fractionHouseHolds.Average().ToString("F2"));
             Console.WriteLine("Fraction Households minimum:" + fractionHouseHolds.Min().ToString("F2"));
             Console.WriteLine("Fraction Households maximum:" + fractionHouseHolds.Max().ToString("F2"));
